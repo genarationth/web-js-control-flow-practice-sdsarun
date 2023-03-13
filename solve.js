@@ -3,14 +3,14 @@ function solve(n) {
     // read input
     let dayNumber = n;
 
-    // store day name
+    // store day names
     const daysName = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     // check valid dayNumber
     if (dayNumber >= 0 && dayNumber <= 6) {
-        console.log(n, daysName[dayNumber]);
+        console.log(daysName[dayNumber]);
     } else {
-        console.log(n, "Invalid day number.");
+        console.log("Invalid day number.");
     }
 }
 
